@@ -1,0 +1,11 @@
+.wish__author {
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .wish__author {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 24px;
+  }
+}

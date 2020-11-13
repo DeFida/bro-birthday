@@ -1,0 +1,12 @@
+.wishes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .wishes {
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+  }
+}
