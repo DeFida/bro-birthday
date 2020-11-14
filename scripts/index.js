@@ -74,9 +74,10 @@ function show() {
     }
 }
 
-if (distance > 0) {
-    wishes.style.display = 'none';
-    header.style.display = 'none';
+if (distance < 0) {
+    countDown.style.display = 'none';
+    wishes.style.display = 'grid';
+    header.style.display = 'block';
 }
 
 // Update the count down every 1 second
