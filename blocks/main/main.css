@@ -8,10 +8,19 @@
   justify-content: center;
 }
 
+#countdown {
+  font-family: monospace;
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 767px) {
   .main {
     margin: 46px auto 0;
     max-width: 282px;
     width: 100%;
+  }
+  #countdown {
+    font-size: 36px;
   }
 }

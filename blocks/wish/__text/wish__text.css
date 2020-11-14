@@ -5,6 +5,23 @@
   margin-bottom: 0;
 }
 
+.typewriter__text {
+  padding-right: 10px;
+  font-size: 21px;
+  border-right: solid #face20 5px;
+  animation: cursor 0.8s ease-in infinite;
+}
+
+/* анимация курсора */
+@keyframes cursor {
+  from {
+    border-color: #face20;
+  }
+  to {
+    border-color: transparent;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .wish__text {
     font-size: 18px;
