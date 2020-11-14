@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-const countDownDate = new Date("Nov 15, 2020 01:35:20").getTime();
+const countDownDate = new Date("Nov 16, 2020 00:00:00").getTime();
 const wishes = document.querySelector(".wishes");
 const wishEl = document.querySelector(".wish");
 const header = document.querySelector(".header");
